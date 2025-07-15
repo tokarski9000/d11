@@ -41,6 +41,7 @@ module:
   filter: 0
   focal_point: 0
   friendlycaptcha: 0
+  fuel_calculator: 0
   gin_toolbar: 0
   honeypot: 0
   image: 0
