@@ -1,0 +1,14 @@
+parameters:
+  # According to https://phpstan.org/user-guide/rule-levels
+  # Level 9 is most strict and it includes all checks.
+  level: 4
+
+  # The list of paths to check.
+  # This setting is ignored by PHPStorm, but it comes in handy when using terminal.
+  paths:
+    - web/modules/custom
+
+  # Uncomment the following lines to exclude paths from analysis.
+  excludePaths:
+    - */vendor*/
+    - */node_modules/*
