@@ -1,0 +1,13 @@
+uuid: 83cc70a2-ec15-44e9-a277-ef34efac447b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: p7g2PyETibEB0CxdXFdXJpEZbMuwrr5HkNBdBV8oK7o
+id: media.4_3_wide
+label: '4:3 Wide'
+description: ''
+targetEntityType: media
+cache: true
