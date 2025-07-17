@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - dashboard.dashboard.welcome
+    - rest.resource.fuel_calculate_resource
   module:
     - captcha
     - coffee
@@ -13,6 +14,7 @@ dependencies:
     - klaro
     - media
     - node
+    - rest
     - system
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
@@ -25,6 +27,7 @@ permissions:
   - 'access content'
   - 'bypass honeypot protection'
   - 'delete own files'
+  - 'restful post fuel_calculate_resource'
   - 'skip CAPTCHA'
   - 'use klaro'
   - 'view media'

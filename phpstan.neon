@@ -1,7 +1,7 @@
 parameters:
   # According to https://phpstan.org/user-guide/rule-levels
   # Level 9 is most strict and it includes all checks.
-  level: 4
+  level: 8
 
   # The list of paths to check.
   # This setting is ignored by PHPStorm, but it comes in handy when using terminal.
@@ -12,3 +12,6 @@ parameters:
   excludePaths:
     - */vendor*/
     - */node_modules/*
+  ignoreErrors:
+    -
+      identifier: missingType.iterableValue

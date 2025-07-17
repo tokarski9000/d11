@@ -84,6 +84,7 @@
 
 # Ignore IDE files
 /.idea
+/.vscode
 
 # Ignore libraries
 /web/libraries/

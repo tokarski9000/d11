@@ -1,0 +1,20 @@
+uuid: 160b9f7f-61a0-4292-aa31-232437f33872
+langcode: en
+status: true
+dependencies:
+  module:
+    - fuel_calculator
+  theme:
+    - drupal_cms_olivero
+id: drupal_cms_olivero_fuelcalculatorform
+theme: drupal_cms_olivero
+region: content
+weight: 0
+provider: null
+plugin: fuel_calculator_form_block
+settings:
+  id: fuel_calculator_form_block
+  label: 'Fuel Calculator Form'
+  label_display: visible
+  provider: fuel_calculator
+visibility: {  }

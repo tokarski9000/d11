@@ -2,9 +2,12 @@ uuid: 63cdbc9c-fe42-4bd9-b392-10e81358c5c2
 langcode: en
 status: true
 dependencies:
+  config:
+    - rest.resource.fuel_calculate_resource
   module:
     - klaro
     - media
+    - rest
     - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
@@ -14,5 +17,6 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'restful post fuel_calculate_resource'
   - 'use klaro'
   - 'view media'
